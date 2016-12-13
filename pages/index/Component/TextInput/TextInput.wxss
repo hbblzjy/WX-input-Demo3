@@ -1,0 +1,19 @@
+/* pages/index/Component/TextInput/TextInput.wxss */
+.section{
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 50px;
+  border: 2px solid red;
+  border-radius: 25px;
+}
+.input{
+ padding-left: 10px;
+ height: 44px; 
+}
+.section__title{
+    margin-top: 10px;
+}
+.section1{
+    margin-top: 10px;
+}

@@ -1,0 +1,43 @@
+<!--pages/index/Component/TextInput/TextInput.wxml-->
+<view class="viewTitle">
+    <text class="view-Name">TextInput输入框展示</text>
+    <view class="lineView"></view>
+</view>
+<view class="section">
+    <input class="input" placeholder-style="font-size:15px" 
+    placeholder="自动聚焦弹出键盘，一个页面中只能有一个" auto-focus/>
+</view>
+<view class="section">
+    <input class="input" placeholder="此处只有在点击下方按钮时才聚焦" focus="{{focus}}" />
+</view>
+<view class="section1">
+    <button bindtap="bindButtonTap">使得输入框获取焦点</button>
+</view>
+<view class="section">
+    <input class="input" maxlength="10" placeholder="最大输入长度10" />
+</view>
+<view class="section__title">你输入的是：{{inputValue}}</view>
+<view class="section">
+    <input class="input" bindinput="bindKeyInput" placeholder="输入同步到view中"/>
+</view>
+<view class="section">
+    <input class="input" bindinput="bindReplaceInput" placeholder="连续的两个1会变成2" />
+</view>
+<view class="section">
+    <input class="input" bindinput="bindHideKeyboard" placeholder="输入123自动收起键盘" />
+</view>
+<view class="section">
+    <input class="input" type="number" placeholder="这是一个数字输入框" />
+</view>
+<view class="section">
+    <input class="input" password type="text" placeholder="这是一个密码输入框" />
+</view>
+<view class="section">
+    <input class="input" type="digit" placeholder="带小数点的数字键盘"/>
+</view>
+<view class="section">
+    <input class="input" type="idcard" placeholder="身份证输入键盘" />
+</view>
+<view class="section">
+    <input class="input" placeholder-style="color:red" placeholder="占位符字体是红色的" />
+</view>

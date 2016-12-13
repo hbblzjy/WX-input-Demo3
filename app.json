@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+
+    "pages/index/Component/TextInput/TextInput"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FFF0F5",
+    "navigationBarTitleText": "组件三介绍：输入框Input控件",
+    "navigationBarTextStyle":"black",
+    "backgroundColor": "#fbf9fe"
+  }
+}

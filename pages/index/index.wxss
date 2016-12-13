@@ -1,0 +1,17 @@
+/**index.wxss**/
+.itemView{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 50px;
+  
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+}
+.input{
+ width: 250px;
+ height: 50px; 
+ border: 1px solid lightgray;
+ border-radius: 25px;
+}
